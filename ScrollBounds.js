@@ -80,5 +80,6 @@ function ScrollBounds(w, d) {
         get: getValues,
         startListen: startListen,
         stopListen: stopListen,
+        setDebug: setDebug
     };
 }
