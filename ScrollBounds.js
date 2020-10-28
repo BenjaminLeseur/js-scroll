@@ -18,7 +18,7 @@ function ScrollBounds(w, d) {
         reachBottomEvent = new Event('scroll-reach-bottom');
         leaveBottomEvent = new Event('scroll-leave-bottom');
         reachTopEvent = new Event('scroll-reach-top');
-        leaveTopEvent = new Event('scroll-leave-bottom');
+        leaveTopEvent = new Event('scroll-leave-top');
         onScrolling();
         w.addEventListener('scroll', listenScroll);
     };
